@@ -1,6 +1,5 @@
 month = input('Enter the month: ')
 day = int(input('Enter the day: '))
-
 if month == "January" and day == 1:
     print("New Year's Day")
 elif month == 'July' and day == 1:
