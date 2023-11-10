@@ -16,4 +16,4 @@ elif side == 9:
 elif side == 10:
     print(f'The shape with {side} sides is Decagon')
 else:
-    print('Error input')
+    print('Error input.')
