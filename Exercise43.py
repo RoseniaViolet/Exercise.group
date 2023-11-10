@@ -14,4 +14,4 @@ elif Par_value == 50:
 elif Par_value == 100:
     print('Benjamin Franklin')
 else:
-    print('Error! Invalid denomination')
+    print('Error! Invalid denomination.')
