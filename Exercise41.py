@@ -18,6 +18,6 @@ if note[0] in ('A', 'B', 'C', 'D', 'E', 'F', 'G'):
         F = Perfect_Fourth / (2 ** (4 - int(note[1])))
         print(f'The frequency of {note} is {F}')
      else:
-         print('No data on the entered musical note ')
+         print('No data on the entered musical note')
 else:
     print('No data on the entered musical note ')

@@ -1,4 +1,4 @@
-F = float(input('Enter the frequency: '))
+F = float(input('Enter the frequency:'))
 note = ''
 if abs(F - 440) <= 1:
     note = 'A4'
