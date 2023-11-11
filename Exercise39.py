@@ -1,5 +1,4 @@
 decibels = int(input('Enter the number of decibels: '))
-
 if decibels == 130:
     print('Jackhammer')
 elif decibels == 106:

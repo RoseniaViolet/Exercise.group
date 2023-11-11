@@ -1,4 +1,4 @@
-a = input("Enter month: ")
+a = input(" Enter month: ")
 if a in {'January', 'March', 'May', 'July', 'August', 'October', 'December'}:
     print(a, "has 31 days")
 elif a == "February":
