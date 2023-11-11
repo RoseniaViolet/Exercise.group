@@ -1,4 +1,4 @@
-decibels = int(input('Enter the decibels: '))
+decibels = int(input('Enter the number of decibels: '))
 if decibels == 130:
     print('Jackhammer')
 elif decibels == 106:
@@ -8,11 +8,11 @@ elif decibels == 70:
 elif decibels == 40:
     print('Quiet room')
 elif 40 < decibels < 70:
-    print('Between 40 and 70')
+    print('Quieter than an alarm clock')
 elif 70 < decibels < 106:
-    print('Between 70 and 106')
+    print('Quieter than a gas lawnmower')
 elif 106 < decibels < 130:
-    print('Between 106 and 130')
+    print('Quieter than a jackhammer')
 elif decibels < 40:
     print('Too low to audible')
 else:
