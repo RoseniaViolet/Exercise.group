@@ -1,17 +1,22 @@
 Par_value = int(input('Enter the denomination of a banknote: $'))
+name =''
 if Par_value == 1:
-    print('George Washington')
+     name = "George Washington"
 elif Par_value == 2:
-    print('Thomas Jefferson')
+     name = 'Thomas Jefferson'
 elif Par_value == 5:
-    print('Abraham Lincoln')
+     name = 'Abraham Lincoln'
 elif Par_value == 10:
-    print('Alexander Hamilton')
+     name = 'Alexander Hamilton'
 elif Par_value == 20:
-    print('Andrew Jackson')
+     name = 'Andrew Jackson'
 elif Par_value == 50:
-    print('Ulysses S. Grant')
+     name = 'Ulysses S. Grant'
 elif Par_value == 100:
-    print('Benjamin Franklin')
+     name = 'Benjamin Franklin'
 else:
-    print('Error! Invalid denomination.')
+     name = ''
+if name:
+    print(f"${Par_value} banknote has an image of {name}")
+else:
+    print("No such note exists!")
